@@ -1,5 +1,5 @@
 export const data = [{
-    'name': 'Year 2015/1016',
+    'name': 'Year 2015/2016',
     'terms': [
         {
             'start': '2015-10-31',
@@ -7,8 +7,8 @@ export const data = [{
             'name': 'term1'
         },
         {
-            'start': '2017-02-20',
-            'end': '2017-05-31',
+            'start': '2016-02-20',
+            'end': '2016-05-31',
             'name': 'term2'
         }
     ],
@@ -30,7 +30,7 @@ export const data = [{
         }
     ]
 }, {
-    'name': 'Year 2016/1017',
+    'name': 'Year 2016/2017',
     'terms': [
         {
             'start': '2016-10-03',

@@ -1,7 +1,7 @@
 import { AcademicYear } from './academic-year';
 import { data as fixture } from './fixture';
 
-fdescribe('AcademicYear', () => {
+describe('AcademicYear', () => {
     const year = new AcademicYear(fixture[0]);
 
     it('should create an instance', () => {
