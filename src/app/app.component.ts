@@ -15,7 +15,7 @@ import { AcademicYear } from './models/academic-year';
     providers: [ApiService]
 })
 export class AppComponent implements OnInit {
-    public date: Date = new Date('2016-01-01');
+    public date: Date = new Date();
     public weekNo;
     public term;
     public loading = true;
