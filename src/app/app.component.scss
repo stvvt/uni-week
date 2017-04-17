@@ -1,0 +1,72 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    flex: 1;
+    align-items: center;
+    background: rgba(231,109,28,1);
+    background: -moz-linear-gradient(top, rgba(231,109,28,1) 0%, rgba(231,109,28,1) 0%, rgba(228,12,8,1) 51%, rgba(231,109,28,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(231,109,28,1)), color-stop(0%, rgba(231,109,28,1)), color-stop(51%, rgba(228,12,8,1)), color-stop(100%, rgba(231,109,28,1)));
+    background: -webkit-linear-gradient(top, rgba(231,109,28,1) 0%, rgba(231,109,28,1) 0%, rgba(228,12,8,1) 51%, rgba(231,109,28,1) 100%);
+    background: -o-linear-gradient(top, rgba(231,109,28,1) 0%, rgba(231,109,28,1) 0%, rgba(228,12,8,1) 51%, rgba(231,109,28,1) 100%);
+    background: -ms-linear-gradient(top, rgba(231,109,28,1) 0%, rgba(231,109,28,1) 0%, rgba(228,12,8,1) 51%, rgba(231,109,28,1) 100%);
+    background: linear-gradient(to bottom, rgba(231,109,28,1) 0%, rgba(231,109,28,1) 0%, rgba(228,12,8,1) 51%, rgba(231,109,28,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e76d1c', endColorstr='#e76d1c', GradientType=0 );
+
+    h1 {
+        flex: 2;
+        margin: 0;
+        padding: 0;
+        font-size: 50vh;
+        font-weight: 900;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+        sup {
+            font-weight: 100;
+            font-size: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1em;
+            text-align: center;
+        }
+    }
+
+    dl {
+        flex: 2;
+        font-size: 3rem;
+
+        dt {
+            text-align: right;
+            display: block;
+            float: left;
+            clear: both;
+            width: 20rem;
+        }
+
+        dd {
+            float: left;
+            display: block;
+            width: 20rem;
+        }
+    }
+
+    footer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+        button {
+            margin: 1rem;
+            padding: 0;
+            display: block;
+            float: left;
+            width: 100%;
+            height: 5rem;
+            background-color: #e76c1c;
+            border: 1px solid #eb8516;
+            color: white;
+            font-size: 7vh;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<div *ngIf="loading">
+    Loading
+</div>
+<div *ngIf="!loading">
+    <h1>
+        {{weekNo || 'N/A'}}
+        <sup *ngIf="weekNo">{{ (weekNo-1) % 4 + 1}}</sup>
+    </h1>
+
+    <dl>
+        <dt>Date</dt>
+        <dd>{{date | date:'dd.MM.y'}}</dd>
+        <dt>Semester start</dt>
+        <dd *ngIf="term">{{term.start | date:'dd.MM.y'}}</dd>
+    </dl>
+</div>
